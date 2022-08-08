@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/font.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <title>Uzman - Psixoloq platforması</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-top">
+        <div class="container-xl">
+          <a class="burger-icon"></a>
+          <div class="nav-left">
+            <a href="/" class="logo"> Uzman<span>.az</span> </a>
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="/" class="nav-links">Baş səhifə</a>
+              </li>
+              <li class="nav-item">
+                <a href="/" class="nav-links">Layihə haqqında</a>
+              </li>
+              <li class="nav-item">
+                <a href="/" class="nav-links">Korporativ</a>
+              </li>
+              <li class="nav-item">
+                <a href="/" class="nav-links">Bizimlə əlaqə</a>
+              </li>
+            </ul>
+          </div>
+          <div class="dark">
+            <span>Tünd rejim:</span>
+            <a href="" class="dark-mode"></a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-bottom">
+        <div class="container-xl">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-links">Psixoloqlar</a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-links">Faydalı məlumatlar</a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-links"
+                >Psixoloji testlər</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-links"
+                >Psixoloji mərkəzlər</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-links"
+                >Pasiyent fikirləri</a
+              >
+            </li>
+          </ul>
+          <div class="buttons">
+            <a href="tel:+994702549600" class="questions">
+              <img src="./img/call.svg" alt="" />
+              <span>070 254 96 00</span>
+            </a>
+            <a href="#consultation" data-bs-toggle="modal" class="consultation">
+              <i class="fas fa-microphone"></i>
+              <span> Konsultasiya al </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-mobile">
+        <ul class="nav-menu menu-top">
+          <li class="nav-item">
+            <a href="/" class="nav-links">Psixoloqlar</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-links">Faydalı məlumatlar</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-links"
+              >Psixoloji testlər</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-links"
+              >Psixoloji mərkəzlər</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-links"
+              >Pasiyent fikirləri</a
+            >
+          </li>
+        </ul>
+        <ul class="nav-menu menu-bottom">
+          <li class="nav-item">
+            <a href="/" class="nav-links">Baş səhifə</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-links">Layihə haqqında</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-links">Korporativ</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-links">Bizimlə əlaqə</a>
+          </li>
+        </ul>
+        <div class="buttons">
+          <a href="tel:+994702549600" class="questions">
+            <i class="fas fa-phone-alt"></i>
+            070 254 96 00</a
+          >
+          <a
+            href="#consultation"
+            data-bs-toggle="modal"
+            role="button"
+            class="consultation"
+            >Konsultasiya al</a
+          >
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="consultation"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                ×
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-title">
+                <h3>Konsultasiyaya başla</h3>
+                <p>Özünü daha yaxşı hiss etməyə bu gündən başla</p>
+              </div>
+              <form action="">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li>
+                    <div class="prog">
+                      <div class="prog-loading"></div>
+                    </div>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pills-one-tab"
+                      ><i class="fa fa-compress"></i>
+                    </a>
+                    <span class="icon-text">Konsultasiya növü</span>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-two-tab"
+                      ><i class="fa fa-user"></i
+                    ></a>
+                    <span class="icon-text">Mövzu</span>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-three-tab"
+                      ><i class="fa fa-sign-in"></i
+                    ></a>
+                    <span class="icon-text">Əlaqə</span>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div
+                    class="tab-pane fade show active pills-one"
+                    id="pills-one"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                  >
+                    <span class="tab-info"
+                      ><i class="fa fa-info-circle"></i>
+                      Zəhmət olmasa konsultasiya növü seçin
+                    </span>
+                    <div class="types">
+                      <input
+                        type="radio"
+                        id="sesli"
+                        name="konsultasiya"
+                        value="Səsli"
+                      />
+                      <label for="sesli">
+                        <div class="title">
+                          <span class="img">
+                            <img src="./img/microphone.png" alt="" />
+                          </span>
+                          <span class="text"> Səsli </span>
+                        </div>
+                        <div class="desc">1 saatlıq səsli konsultasiya</div>
+                      </label>
+
+                      <input
+                        type="radio"
+                        id="goruntulu"
+                        name="konsultasiya"
+                        value="Görüntülü"
+                      />
+                      <label for="goruntulu">
+                        <div class="title">
+                          <span class="img">
+                            <img src="./img/video-camera.png" alt="" />
+                          </span>
+                          <span class="text"> Görüntülü </span>
+                        </div>
+                        <div class="desc">1 saatlıq görüntülü konsultasiya</div>
+                      </label>
+
+                      <input
+                        type="radio"
+                        id="yazılı"
+                        name="konsultasiya"
+                        value="Yazılı"
+                      />
+                      <label for="yazılı">
+                        <div class="title">
+                          <span class="img">
+                            <img src="./img/message.png" alt="" />
+                          </span>
+                          <span class="text"> Yazılı </span>
+                        </div>
+                        <div class="desc">1 saatlıq yazılı konsultasiya</div>
+                      </label>
+
+                      <input
+                        type="radio"
+                        id="uzuze"
+                        name="konsultasiya"
+                        value="Üz-üzə"
+                      />
+                      <label for="uzuze">
+                        <div class="title">
+                          <span class="img">
+                            <img src="./img/couch-solid.svg" alt="" />
+                          </span>
+                          <span class="text"> Üz-üzə </span>
+                        </div>
+                        <div class="desc">1 saatlıq yazılı konsultasiya</div>
+                      </label>
+                    </div>
+                    <div class="tab-btn">
+                      <button class="contunie btn disabled">Davam et</button>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-pane fade pills-two"
+                    id="pills-two"
+                    role="tabpanel"
+                    aria-labelledby="pills-profile-tab"
+                  >
+                    <span class="tab-info"
+                      ><i class="fa fa-info-circle"></i>
+                      Zəhmət olmasa mövzunu seçin
+                    </span>
+                    <div class="selectBtns consultationBtns">
+                      <input type="checkbox" id="depressiya" />
+                      <label for="depressiya">Depressiya</label>
+
+                      <input type="checkbox" id="Stress" />
+                      <label for="Stress">Stress</label>
+
+                      <input type="checkbox" id="Narahatlıq" />
+                      <label for="Narahatlıq">Narahatlıq</label>
+
+                      <input type="checkbox" id="Panik ataklar" />
+                      <label for="Panik ataklar">Panik ataklar</label>
+
+                      <input type="checkbox" id="Özgüvən əksikliyi" />
+                      <label for="Özgüvən əksikliyi">Özgüvən əksikliyi</label>
+
+                      <input type="checkbox" id="Diqqət dağınıqlığı" />
+                      <label for="Diqqət dağınıqlığı">Diqqət dağınıqlığı</label>
+
+                      <input type="checkbox" id="Ünsiyyət problemləri" />
+                      <label for="Ünsiyyət problemləri"
+                        >Ünsiyyət problemləri</label
+                      >
+
+                      <input type="checkbox" id="Nitq ləngiməsi" />
+                      <label for="Nitq ləngiməsi">Nitq ləngiməsi</label>
+
+                      <input type="checkbox" id="Fobiya və qorxular" />
+                      <label for="Fobiya və qorxular">Fobiya və qorxular</label>
+
+                      <input type="checkbox" id="Autizm" />
+                      <label for="Autizm">Autizm</label>
+
+                      <input type="checkbox" id="Qısqanclıq" />
+                      <label for="Qısqanclıq">Qısqanclıq</label>
+
+                      <input type="checkbox" id="Həyəcan pozuntusu" />
+                      <label for="Həyəcan pozuntusu">Həyəcan pozuntusu</label>
+
+                      <input type="checkbox" id="Əhval dəyişikliyi" />
+                      <label for="Əhval dəyişikliyi">Əhval dəyişikliyi</label>
+
+                      <input type="checkbox" id="Yuxu pozuntusu" />
+                      <label for="Yuxu pozuntusu">Yuxu pozuntusu</label>
+
+                      <input type="checkbox" id="Yemək pozuntusu" />
+                      <label for="Yemək pozuntusu">Yemək pozuntusu</label>
+
+                      <input type="checkbox" id="Tənhalıq hissi" />
+                      <label for="Tənhalıq hissi">Tənhalıq hissi</label>
+
+                      <input type="checkbox" id="Emosional asılılıq" />
+                      <label for="Emosional asılılıq">Emosional asılılıq</label>
+
+                      <input type="checkbox" id="Sosial media asılılığı" />
+                      <label for="Sosial media asılılığı"
+                        >Sosial media asılılığı</label
+                      >
+
+                      <input type="checkbox" id="Alkoqol asılılığı" />
+                      <label for="Alkoqol asılılığı">Alkoqol asılılığı</label>
+
+                      <input type="checkbox" id="Pis vərdişlər" />
+                      <label for="Pis vərdişlər">Pis vərdişlər</label>
+
+                      <input type="checkbox" id="Uşaq psixologiyası" />
+                      <label for="Uşaq psixologiyası">Uşaq psixologiyası</label>
+
+                      <input type="checkbox" id="Digər" />
+                      <label for="Digər">Digər</label>
+                    </div>
+                    <div class="tab-btn">
+                      <button class="back btn">Geri</button>
+                      <button class="contunie btn disabled">Davam et</button>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-pane fade pills-three"
+                    id="pills-three"
+                    role="tabpanel"
+                    aria-labelledby="pills-contact-tab"
+                  >
+                    <div class="tab-inputs">
+                      <div class="mb-3 col-input">
+                        <input
+                          type="text"
+                          name="isim"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="Ad Soyad"
+                        />
+                      </div>
+                      <div class="mb-3 col-input">
+                        <input
+                          type="text"
+                          name="telefon"
+                          class="form-control"
+                          id="floatingPassword"
+                          placeholder="Telefon"
+                        />
+                      </div>
+                      <div class="mb-3 col-input">
+                        <input
+                          type="text"
+                          name="yash"
+                          class="form-control"
+                          id="floatingPassword"
+                          placeholder="Yaşınız"
+                        />
+                      </div>
+                      <div class="col-input w-100">
+                        <textarea
+                          name="mesaj"
+                          class="form-control"
+                          placeholder="Sizi narahat edən şikayətiniz"
+                          id="floatingTextarea2"
+                          style="height: 100px"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="tab-btn">
+                      <button class="back btn">Geri</button>
+                      <button
+                        id="test1"
+                        type="submit"
+                        name="submit"
+                        class="contunie btn disabled"
+                      >
+                        Göndər
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="slider">
+      <div class="container">
+        <div class="row-section">
+          <div class="column">
+            <div class="slider-text">
+              <h1 class="slider-header">
+                Özünü <span>daha yaxşı hiss et</span>məyə <br />
+                bu gündən başla !
+              </h1>
+              <p class="slider-desc">
+                Ehtiyacın olan mövzuda uzman bir psixoloqla dərdini bölüşmək
+                istəyərdin ?
+              </p>
+              <div class="slider-icons">
+                <ul class="icon-list">
+                  <li>
+                    <img src="./img/microphone.png" alt="" />
+                    <p>Səsli</p>
+                  </li>
+                  <li>
+                    <img src="./img/video-camera.png" alt="" />
+                    <p>Görüntülü</p>
+                  </li>
+                  <li>
+                    <img src="./img/message.png" alt="" />
+                    <p>Yazılı</p>
+                  </li>
+                  <li>
+                    <img src="./img/couch-solid.svg" alt="" />
+                    <p>Üz-üzə</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="slider-btn">
+                <a href="/">Psixoloqunu seç</a>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <img src="./img/uzman-banner.png" alt="" class="slider-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section about">
+      <div class="container">
+        <div class="row-section">
+          <div class="column">
+            <h2 class="about-heading">
+              'Uzman.az' dakı hər psixoloq, öz sahəsinin uzmanıdır
+            </h2>
+            <p class="about-desc">
+              Sahəsi üzrə peşəkar psixoloqları sənin üçün vahid platformada
+              topladıq. Bir neçə kliklə öz psixoloq həkimini seç, dərdini bölüş,
+              özünü daha yaxşı hiss etməyə bu gündən başla.
+            </p>
+            <br />
+            <a href="/" class="about-btn">Öz psixoloqunu seç</a>
+          </div>
+          <div class="column">
+            <img src="./img/uzmanlar-min.png" alt="" class="about-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section info">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="section-heading">Faydalı məlumatlar</h2>
+        </div>
+
+        <div class="row-section">
+          <a href="#" class="column">
+            <div class="column-inner">
+              <img src="./img/anhedoniya.jpeg" alt="" class="info-img" />
+              <div class="info-caption">
+                <div class="caption-top">
+                  <span>BLOG</span>
+                </div>
+                <div class="caption-bottom">
+                  <h4>Anhedoniya (heç nədən zövq almamaq) nədir?</h4>
+                  <div class="icons">
+                    <div class="like">
+                      <div class="like-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="dislike-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83) rotate(180deg)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="view">
+                      <img src="./img/view.svg" alt="" />
+                      <span class="number">96</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="column">
+            <div class="column-inner">
+              <img src="./img/sosial-fobia.jpeg" alt="" class="info-img" />
+              <div class="info-caption">
+                <div class="caption-top">
+                  <span>BLOG</span>
+                </div>
+                <div class="caption-bottom">
+                  <h4>Sosial Fobiya nədir?</h4>
+                  <div class="icons">
+                    <div class="like">
+                      <div class="like-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="dislike-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83) rotate(180deg)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="view">
+                      <img src="./img/view.svg" alt="" />
+                      <span class="number">96</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="column">
+            <div class="column-inner">
+              <img src="./img/baglanma.jpeg" alt="" class="info-img" />
+              <div class="info-caption">
+                <div class="caption-top">
+                  <span>BLOG</span>
+                </div>
+                <div class="caption-bottom">
+                  <h4>Bir insana bağlanmaq</h4>
+                  <div class="icons">
+                    <div class="like">
+                      <div class="like-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="dislike-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83) rotate(180deg)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="view">
+                      <img src="./img/view.svg" alt="" />
+                      <span class="number">96</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="column">
+            <div class="column-inner">
+              <img
+                src="./img/heddenartiqdusunmek.jpeg"
+                alt=""
+                class="info-img"
+              />
+              <div class="info-caption">
+                <div class="caption-top">
+                  <span>BLOG</span>
+                </div>
+                <div class="caption-bottom">
+                  <h4>Həddindən artıq düşünməkdən qaça bilərikmi?</h4>
+                  <div class="icons">
+                    <div class="like">
+                      <div class="like-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="dislike-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83) rotate(180deg)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="view">
+                      <img src="./img/view.svg" alt="" />
+                      <span class="number">96</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="column">
+            <div class="column-inner">
+              <img src="./img/ozune-sefqet.jpeg" alt="" class="info-img" />
+              <div class="info-caption">
+                <div class="caption-top">
+                  <span>BLOG</span>
+                </div>
+                <div class="caption-bottom">
+                  <h4>Özünə şəfqət nədir?</h4>
+                  <div class="icons">
+                    <div class="like">
+                      <div class="like-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="dislike-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83) rotate(180deg)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="view">
+                      <img src="./img/view.svg" alt="" />
+                      <span class="number">96</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="column">
+            <div class="column-inner">
+              <img src="./img/dincelmek.jpeg" alt="" class="info-img" />
+              <div class="info-caption">
+                <div class="caption-top">
+                  <span>BLOG</span>
+                </div>
+                <div class="caption-bottom">
+                  <h4>Beynimizi dincəltmək üçün 7 tövsiyə</h4>
+                  <div class="icons">
+                    <div class="like">
+                      <div class="like-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="dislike-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83) rotate(180deg)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="view">
+                      <img src="./img/view.svg" alt="" />
+                      <span class="number">96</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="column">
+            <div class="column-inner">
+              <img src="./img/cutluk.jpeg" alt="" class="info-img" />
+              <div class="info-caption">
+                <div class="caption-top">
+                  <span>BLOG</span>
+                </div>
+                <div class="caption-bottom">
+                  <h4>Cütlük terapiyasına getməyi planlamısınız mı?</h4>
+                  <div class="icons">
+                    <div class="like">
+                      <div class="like-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="dislike-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83) rotate(180deg)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="view">
+                      <img src="./img/view.svg" alt="" />
+                      <span class="number">96</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="column">
+            <div class="column-inner">
+              <img src="./img/posttravmatik.jpeg" alt="" class="info-img" />
+              <div class="info-caption">
+                <div class="caption-top">
+                  <span>BLOG</span>
+                </div>
+                <div class="caption-bottom">
+                  <h4>Posttravmatik stress pozuntusu nədir?</h4>
+                  <div class="icons">
+                    <div class="like">
+                      <div class="like-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="dislike-icon">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="#fff"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="transform: scale(0.83) rotate(180deg)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0841 0.536485C14.3864 0.374713 14.7276 0.299985 15.1011 0.299988C15.7325 0.299993 16.4523 0.421565 16.9845 1.00517C17.4967 1.56679 17.6979 2.40997 17.6979 3.49999C17.6979 4.08125 17.6049 4.70261 17.5008 5.2761C17.4564 5.5204 17.4116 5.74895 17.3688 5.96695C17.3056 6.28933 17.2469 6.58863 17.2009 6.88166C17.1292 7.33825 17.1165 7.6325 17.1439 7.79999H20.7474C21.4315 7.79999 21.9533 8.14508 22.2722 8.67725C22.5656 9.16678 22.68 9.79346 22.6975 10.4339C22.733 11.7282 22.3794 13.3855 21.765 14.9991C21.1482 16.6187 20.243 18.2622 19.1198 19.5143C18.0053 20.7566 16.5942 21.7 14.9739 21.7C13.6881 21.7 12.5704 21.419 11.5759 21.0901C11.1793 20.959 10.794 20.8172 10.4301 20.6833C10.3418 20.6508 10.2548 20.6188 10.1692 20.5875C9.72348 20.4246 9.31067 20.2795 8.90835 20.1685C8.10207 19.946 7.43821 19.6927 6.98305 19.2573C6.49428 19.977 5.67373 20.45 4.74229 20.45H4.49964C2.73243 20.45 1.29999 19.0172 1.29999 17.25V12.25C1.29999 10.4828 2.73243 9.04999 4.49964 9.04999H5.50646C6.49336 9.04999 7.27409 9.54126 7.75286 10.2495C7.99454 9.87975 8.27692 9.53071 8.60702 9.21035L8.6187 9.19901L8.6309 9.18822C10.4302 7.59759 12.0815 4.87993 12.7614 2.69155C12.7726 2.6555 12.7839 2.61866 12.7955 2.58114C12.9331 2.13431 13.1001 1.59214 13.3894 1.1715C13.5585 0.925457 13.7819 0.698182 14.0841 0.536485ZM7.80437 14.6906C7.91875 13.9262 8.04332 13.3091 8.18469 12.7623C8.21002 12.6643 8.23028 12.5656 8.24559 12.4665C8.52943 11.5954 8.95158 10.8311 9.571 10.2258C11.5764 8.44709 13.3521 5.5089 14.0983 3.10693L14.1006 3.09951C14.2708 2.55175 14.3792 2.20294 14.543 1.96469C14.6128 1.86309 14.6784 1.80631 14.7446 1.77086C14.8107 1.73549 14.9174 1.69999 15.101 1.69999C15.5838 1.69999 15.8124 1.79757 15.9501 1.94853C16.1078 2.12149 16.2979 2.5283 16.2979 3.49999C16.2979 3.94958 16.2245 4.46864 16.1233 5.02594C16.087 5.22554 16.0456 5.43772 16.0038 5.6516C15.9356 6.00051 15.8666 6.35393 15.8178 6.6646C15.7405 7.15721 15.6812 7.71539 15.792 8.17329C15.8513 8.41862 15.9726 8.69298 16.2195 8.90295C16.4736 9.11906 16.7816 9.19999 17.0835 9.19999H20.7474C20.8932 9.19999 20.9806 9.24552 21.0714 9.39694C21.1877 9.59101 21.2835 9.94089 21.2981 10.4723C21.3268 11.5218 21.0321 12.9895 20.4566 14.5009C19.8834 16.0063 19.057 17.4877 18.0777 18.5794C17.0895 19.6809 16.0272 20.3 14.9739 20.3C13.8966 20.3 12.9381 20.066 12.0155 19.7609C11.6431 19.6378 11.285 19.5061 10.9231 19.3729C10.8323 19.3395 10.7413 19.3061 10.6498 19.2726C10.2004 19.1084 9.74194 18.9461 9.28071 18.8189C8.42205 18.582 8.07763 18.3876 7.91696 18.211C7.79092 18.0725 7.69931 17.8564 7.6993 17.25C7.69929 16.4067 7.71784 15.5383 7.80437 14.6906ZM6.87675 12.1514C6.97527 11.2278 6.31593 10.45 5.50646 10.45H4.49964C3.50581 10.45 2.69999 11.2558 2.69999 12.25V17.25C2.69999 18.2442 3.50581 19.05 4.49964 19.05H4.74229C5.42084 19.05 5.9942 18.5204 6.05214 17.8272C6.16442 16.4841 6.28164 15.4129 6.41528 14.5136C6.46613 14.0258 6.5385 13.5371 6.64103 13.0577C6.70609 12.7534 6.7838 12.4503 6.87675 12.1514Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="view">
+                      <img src="./img/view.svg" alt="" />
+                      <span class="number">96</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="info-btn">
+          <a href="/">Bütün məqalələrə bax</a>
+        </div>
+      </div>
+    </section>
+    <section class="question">
+      <div class="container">
+        <div class="row-section">
+          <div class="column">
+            <h2 class="section-heading">Uzman.az haqda fikrini bildir</h2>
+            <p class="section-desc">Sənin fikrin bizim üçün çox önəmlidir</p>
+            <div class="question-form">
+              <form method="post">
+                <div class="form-row mb-3">
+                  <input
+                    name="isim"
+                    type="name"
+                    placeholder="Ad-soyad"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <input
+                    type="phone"
+                    name="telefon"
+                    placeholder="Telefon (heç bir yerdə görünməyəcək)"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <div class="rating-stars">
+                    <span>Qiymətləndir :</span>
+                    <div class="stars">
+                      <input
+                        type="radio"
+                        name="rating"
+                        id="rating-5"
+                        value="5"
+                      />
+                      <label for="rating-5"></label>
+                      <input
+                        type="radio"
+                        name="rating"
+                        id="rating-4"
+                        value="4"
+                      />
+                      <label for="rating-4"></label>
+                      <input
+                        type="radio"
+                        name="rating"
+                        id="rating-3"
+                        value="3"
+                      />
+                      <label for="rating-3"></label>
+                      <input
+                        type="radio"
+                        name="rating"
+                        id="rating-2"
+                        value="2"
+                      />
+                      <label for="rating-2"></label>
+                      <input
+                        type="radio"
+                        name="rating"
+                        id="rating-1"
+                        value="1"
+                      />
+                      <label for="rating-1"></label>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="form-floating">
+                    <textarea
+                      name="mesaj"
+                      class="form-control"
+                      placeholder="Leave a comment here"
+                      id="floatingTextarea2"
+                      style="height: 160px"
+                    ></textarea>
+                    <label for="floatingTextarea2">Fikirləriniz</label>
+                  </div>
+                </div>
+                <button type="submit" name="submit" class="btn">
+                  Fikrini bildir
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="column">
+            <div class="quest-slider">
+              <div class="slick-item invisible">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Fəridə Quliyeva</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Psixoloqumu uzman.az vasitəsilə tapdım.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item invisible">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Ayşən Həsənova</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Saytda olan bloglar çox faydalıdır👍
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item invisible">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Rasim Əliyev</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Psixoloqların hər biri öz sahəsinin peşəkarıdır.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item invisible">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Yasəmən
+                        Səfərova</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">Çox faydalı platformadır.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Aygün Qasımova</span
+                      >
+
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Öz profesional psixoloqumu bu saytda tapdım.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Nailə Həşimova</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Uzun müddətdir axtarışda olduğum profesional psixoloqu
+                      uzman.az ilə tapdım.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Həvva
+                        İsmayılova</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Çətin keçən günlərdən sonra axır ki, belə bir psixoloq
+                      platforması ilə qarşılaşdım.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Lalə Salmanlı</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Uzman.az vasitesile tapdıgım psixoloqun ilk seansından
+                      ozumde deyişiklik hiss etmeye basladım
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Nahid Məlikov</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Bu sayt vasitəsi ilə çox yaxşı psixoloq tanıdım.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slick-item">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Elvin
+                        Süleymanov</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Profesional dəstəyə görə təşəkkürlərimi bildirirəm.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Leyla Məmmədova</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Meni narahat eden movzu haqqında saytda olan faydali
+                      melumatları oxumuşam ve cox komekliyi olub.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slick-item">
+                <div class="slick-wrapper">
+                  <div class="scroll-item">
+                    <div class="slick-heading">
+                      <span class="slick-title"
+                        ><i class="fas fa-user-secret"></i>Toğrul Mirzayev</span
+                      >
+                      <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+
+                    <div class="message">
+                      Psixoloji problemlər haqqında blogların olması çox
+                      yaxşıdır.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="loading-circle">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section tests">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="section-heading">Psixoloji testlər</h2>
+        </div>
+        <div class="row-section">
+          <a href="#" class="column">
+            <span>Qısqanclıq testi</span>
+            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="column">
+            <span>Şəxsiyyət testi</span>
+            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="column">
+            <span>Narsist insansınız?</span>
+            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="column">
+            <span>Obsessiv-kompulsiv pozuntu testi</span>
+            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="column">
+            <span>Borderline şəxsiyyət pozuntusu testi</span>
+            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="column">
+            <span>Sakitsiniz yoxsa əsəbi?</span>
+            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="column">
+            <span>Şizofreniya testi</span>
+            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="column">
+            <span>Depressiya testi</span>
+            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="corporative">
+      <div class="container">
+        <div class="section-caption">
+          <h2 class="section-heading">
+            İşçiləriniz xoşbəxtdirsə, <br />
+            siz də xoşbəxtsiniz
+          </h2>
+          <p class="section-desc">Şirkətlər üçün korporativ psixoloq xidməti</p>
+          <p class="section-desc">
+            Araşdırmaya görə, işçilərin mental sağlığına qoyulan hər 1 manatlıq
+            yatırım, şirkətə 3 manatlıq geri dönüş təmin edir.
+          </p>
+          <a href="/" class="section-button">
+            <span>Korporativ psixoloq xidməti</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="section callTo">
+      <div class="container">
+        <h2 class="section-heading">Öz psixoloqunu tap</h2>
+        <div class="call-inner">
+          <form>
+            <div>
+              <label for="cins" class="form-label">Cinsi</label>
+              <select id="cins" class="form-select">
+                <option selected value="">--Seçin--</option>
+                <option value="Kişi">Kişi</option>
+                <option value="Qadın">Qadın</option>
+                <option value="Fərqi yoxdur">Fərqi yoxdur</option>
+              </select>
+            </div>
+            <div>
+              <label for="subject" class="form-label">Mövzu</label>
+              <select
+                id="subject"
+                class="form-select"
+                aria-label="Default select example"
+              >
+                <option selected value="">--Seçin--</option>
+                <option value="Depressiya">Depressiya</option>
+                <option value="Stress">Stress</option>
+                <option value="Narahatlıq">Narahatlıq</option>
+                <option value="Panik ataklar">Panik ataklar</option>
+                <option value="Özgüvən əksikliyi">Özgüvən əksikliyi</option>
+                <option value="Diqqət dağınıqlığı">Diqqət dağınıqlığı</option>
+                <option value="Ünsiyyət problemləri">
+                  Ünsiyyət problemləri
+                </option>
+              </select>
+            </div>
+            <div>
+              <label for="type" class="form-label">Konsultasiya növü</label>
+              <select
+                id="type"
+                class="form-select"
+                aria-label="Default select example"
+              >
+                <option selected value="">--Seçin--</option>
+                <option value="Yazılı">Yazılı konsultasiya</option>
+                <option value="Səsli">Səsli konsultasiya</option>
+                <option value="Görüntülü">Görüntülü konsultasiya</option>
+                <option value="Üz-üzə">Üz-üzə konsultasiya</option>
+              </select>
+            </div>
+            <div>
+              <label for="city" class="form-label">Seans dili</label>
+              <select
+                id="city"
+                class="form-select"
+                aria-label="Default select example"
+              >
+                <option selected value="">--Seçin--</option>
+                <option value="Azərbaycan dilində">Azərbaycan dilində</option>
+                <option value="İngilis dilində">İngilis dilində</option>
+                <option value="Rus dilində">Rus dilində</option>
+              </select>
+            </div>
+            <button type="submit" class="btn">Axtar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row-section links">
+            <div class="column">
+              <h5>Yeni psixoloqlar</h5>
+              <ul class="footer-links">
+                <li>
+                  <a href="/"
+                    >Nuranə Salmanlı</a
+                  >
+                </li>
+
+                <li>
+                  <a href="/"
+                    >Elanur Seyfidar</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Gülnarə Muxtarova</a
+                  >
+                </li>
+
+                <li>
+                  <a href="/"
+                    >Sara Sadıqlı</a
+                  >
+                </li>
+
+                <li>
+                  <a href="/"
+                    >Aytən Yusifova</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Səbinə Bəşirzadə</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Mayisə Hüseynova</a
+                  >
+                </li>
+
+                <li>
+                  <a href="/"
+                    >Aynur İbrahimova</a
+                  >
+                </li>
+
+                <li>
+                  <a href="/"
+                    >Şəlalə Zəkizadə</a
+                  >
+                </li>
+
+                <li>
+                  <a class="more-links" href="/"
+                    ><span class="line"></span><span>bütün psixoloqlar</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <h5>Psixoloji testlər</h5>
+              <ul class="footer-links">
+                <li>
+                  <a
+                    href="/"
+                    >Qısqanclıq testi</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Şəxsiyyət testi</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Yetkinlərin diqqətinin dağılma ölçüsü testi</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Narsist insansınız?</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Obsessiv-kompulsiv pozuntu testi</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Borderline şəxsiyyət pozuntusu testi</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Sakitsiniz yoxsa əsəbi?</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Şizofreniya testi</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    >Depressiya testi</a
+                  >
+                </li>
+
+                <li>
+                  <a class="more-links" href="/"
+                    ><span class="line"></span><span>bütün testlər</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <h5>Psixoloji mərkəzlər</h5>
+              <ul class="footer-links">
+                <li>
+                  <a href="/">İnci Psixoloji Mərkəzi</a>
+                </li>
+
+                <li>
+                  <a class="more-links" href="/"
+                    ><span class="line"></span><span>bütün mərkəzlər</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <h5>Ən çox oxunan xəbərlər</h5>
+              <ul class="footer-links">
+                <ul class="footer-links">
+                  <li>
+                    <a href="/"
+                      >Access Bars nədir?</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/"
+                      >Depressiya nədir ? Depressiyanın əlamətləri</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/"
+                      >Şizofreniya və onun əlamətləri</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/"
+                      >Psixoloji qaşınma nədir?</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/"
+                      >Borderline şəxsiyyət pozuntusu</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/"
+                      >Alkoqol və maddə asılılığı</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/"
+                      >Çatışmazlıq hissi və psixoloji dəstək</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/"
+                      >Ünsiyyətdə bədən dilinin əhəmiyyəti</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/"
+                      >Şizotipal şəxsiyyət pozğunluğu və onun müalicəsi</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/"
+                      >Demensiyanın əlamətləri</a
+                    >
+                  </li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+          <div class="socials">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/Uzman-Psixologiya-106808271958910"
+              class="social-link"
+              ><i class="fab fa-facebook-f" aria-hidden="true"></i
+            ></a>
+            <a href="" class="social-link"
+              ><i class="fab fa-twitter" aria-hidden="true"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/uzman.psixologiya/"
+              class="social-link"
+              ><i class="fab fa-instagram" aria-hidden="true"></i
+            ></a>
+            <a href="" class="social-link"
+              ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="langs">
+            <a class="lang"> Dili dəyiş </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-menu">
+            <ul class="menu-link left">
+              <li><a href="/">Baş səhifə</a></li>
+              <li><a href="/">Layihə haqqında</a></li>
+              <li><a href="/">Korporativ</a></li>
+              <li><a href="/">Bizimlə əlaqə</a></li>
+            </ul>
+            <ul class="menu-link right">
+              <li><a href="/">Psixoloqlar</a></li>
+              <li><a href="/">Psixoloji mərkəzlər</a></li>
+              <li><a href="/">Pasiyent fikirləri</a></li>
+              <li><a href="/">Sitemap</a></li>
+            </ul>
+          </div>
+          <div class="copy">
+            <h6>
+              © 2022 Uzman.az - Bütün hüquqlar AR qanunvericiliyə əsasən
+              qorunur.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/fontawesome.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
